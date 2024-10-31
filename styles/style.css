@@ -46,7 +46,7 @@ ol {
   align-items: end;
   gap: 0 30px;
   inline-size: 1140px;
-  block-size: 534px;
+  min-height: auto;
 }
 
 .search-form {
@@ -138,6 +138,7 @@ ol {
   text-overflow: ellipsis; 
   white-space: nowrap; 
   overflow: hidden;
+  max-width: 199px;
 }
 
 .content__video-card-description {
